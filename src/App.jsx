@@ -68,7 +68,12 @@ function App() {
       </div>
 
       <div>
-        <Navbar Precedent={Precedent} Suivant={Suivant} />
+        <Navbar
+          Precedent={Precedent}
+          Suivant={Suivant}
+          pokemonList={pokemonList}
+          pokemonindex={pokemonindex}
+        />
       </div>
     </>
   );
